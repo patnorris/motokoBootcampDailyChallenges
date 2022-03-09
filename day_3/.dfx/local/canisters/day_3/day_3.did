@@ -1,0 +1,10 @@
+service : {
+  greet: (text) -> (text);
+  increase_by_index: (vec nat) -> (vec nat);
+  init_count: (nat) -> (vec nat);
+  nat_opt_to_nat: (opt nat, nat) -> (nat);
+  populate_array: (vec opt nat) -> (vec nat);
+  seven: (vec nat) -> (text);
+  squared_array: (vec nat) -> (vec nat);
+  sum_of_array: (vec nat) -> (nat);
+}
