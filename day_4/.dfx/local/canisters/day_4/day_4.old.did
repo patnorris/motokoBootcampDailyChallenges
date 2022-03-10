@@ -1,0 +1,26 @@
+type List = 
+ opt record {
+       Animal;
+       List;
+     };
+type Company = 
+ record {
+   marketCap: nat;
+   name: text;
+ };
+type Animal = 
+ record {
+   energy: nat;
+   specie: text;
+ };
+service : {
+  create_animal_then_takes_a_break: (text, nat) -> (Animal);
+  fun: () -> (Company);
+  get: (List, nat) -> (opt Animal);
+  get_animals: () -> (vec Animal);
+  greet: (text) -> (text);
+  is_null: (List) -> (bool);
+  last: (List) -> (opt Animal);
+  push_animal: (Animal) -> ();
+  size: (List) -> (nat);
+}
