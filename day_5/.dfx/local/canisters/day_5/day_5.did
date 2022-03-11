@@ -1,0 +1,13 @@
+service : {
+  add_favorite_number: (nat) -> (text);
+  add_favorite_number1: (nat) -> ();
+  delete_favorite_number: () -> ();
+  deposit_cycles: () -> (nat);
+  greet: (text) -> (text);
+  increment_counter: (nat) -> (nat);
+  is_anonymous: () -> (bool);
+  show_favorite_number: () -> (opt nat);
+  update_favorite_number: (nat) -> (opt nat);
+  withdraw_cycles: (nat, func () -> ()) -> ();
+  withdraw_cycles_from_other_canister: () -> ();
+}

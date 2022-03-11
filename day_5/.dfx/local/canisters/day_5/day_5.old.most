@@ -1,0 +1,4 @@
+actor {
+  stable var counter : Nat;
+  stable var version_number : Nat
+};

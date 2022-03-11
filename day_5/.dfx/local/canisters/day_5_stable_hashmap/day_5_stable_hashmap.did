@@ -1,0 +1,8 @@
+service : {
+  add_favorite_number: (nat) -> (text);
+  add_favorite_number1: (nat) -> ();
+  delete_favorite_number: () -> ();
+  greet: (text) -> (text);
+  show_favorite_number: () -> (opt nat);
+  update_favorite_number: (nat) -> (opt nat);
+}
