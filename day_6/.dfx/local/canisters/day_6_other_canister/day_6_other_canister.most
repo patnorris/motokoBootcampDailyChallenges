@@ -1,0 +1,4 @@
+actor {
+  stable var entries : [(Nat, Principal)];
+  stable var nextTokenIndex : Nat
+};
